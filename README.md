@@ -215,7 +215,7 @@ This project is available for educational purposes. Feel free to use the code ex
 **SoftKleenex**
 - GitHub: [@softkleenex](https://github.com/softkleenex)
 - Course: C Programming Fundamentals (COMP101)
-- Period: September 2024 - November 2024
+- Period: September 2025 - November 2025
 
 ## 🙏 Acknowledgments
 
@@ -249,4 +249,4 @@ This project is available for educational purposes. Feel free to use the code ex
 
 📧 For questions or suggestions, please open an issue.
 
-**Status**: ✅ Course Completed (November 2024)
+**Status**: ✅ Course Completed (November 2025)
