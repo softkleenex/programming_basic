@@ -6,7 +6,7 @@
 #include <math.h>
 #include <time.h>
 #include <ctype.h>
-#include <unistd.h>
+
 
 
 int main()
