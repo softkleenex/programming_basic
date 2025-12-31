@@ -1,2 +1,43 @@
-/.DS_Store
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# AI Tools
 .aider*
+.cph/
+
+# Compiled binaries
+*.out
+*.exe
+*.o
+*.a
+*.so
+*.dylib
+hw[0-9]*
+lab[0-9]*
+midexam[0-9]*
+final[0-9]*
+!*.c
+!*.h
+!*.pdf
+!*.txt
+
+# Debug symbols
+*.dSYM/
+
+# Temporary files
+tempCodeRunnerFile.c
+*.bin
+*.tmp
+
+# Test outputs
+a.out
+main
