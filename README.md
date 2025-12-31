@@ -1,252 +1,256 @@
-# C Programming Fundamentals
+# 프로그래밍 기초 (C Programming Fundamentals)
 
-A comprehensive collection of C programming coursework covering fundamental concepts and programming techniques. This repository documents the learning journey through introductory C programming, from basic I/O operations to advanced control structures.
+2025년 2학기 프로그래밍 기초 과정 학습 자료 및 과제 모음집
 
-## 📋 Course Overview
+[![Language](https://img.shields.io/badge/Language-C-blue.svg)](https://en.cppreference.com/w/c)
+[![Course](https://img.shields.io/badge/Course-Complete-success.svg)](https://github.com/softkleenex/programming_basic)
 
-This repository contains exercises, labs, and assignments from an introductory C programming course (COMP101). Each folder represents coursework completed on specific dates, showing progressive learning and skill development.
+## 📌 프로젝트 개요
 
-### Learning Objectives
+C언어 프로그래밍의 기초부터 심화까지 체계적으로 학습한 과정을 정리한 리포지토리입니다.
+총 **81개의 C 프로그램**과 **52개의 학습 자료**를 포함하며, 중간고사와 기말고사로 구분된 커리큘럼을 따릅니다.
 
-- ✅ Master basic C syntax and data types
-- ✅ Understand control flow structures (if, while, for)
-- ✅ Work with operators (arithmetic, logical, bitwise)
-- ✅ Handle input/output operations (scanf, printf)
-- ✅ Develop problem-solving skills through coding exercises
-- ✅ Practice debugging and code organization
+### 📊 학습 성과
 
-## 📁 Repository Structure
+- ✅ **81개** C 프로그램 작성 및 테스트
+- ✅ **14주** 체계적 커리큘럼 완수
+- ✅ **12개** 실습 과제 완료
+- ✅ **10개** 개인 과제 제출
+- ✅ 중간고사 & 기말고사 문제 해결
+
+## 📁 리포지토리 구조
 
 ```
 programming_basic/
-├── 09_04/          # Introduction to C - Basic operators and I/O
-├── 09_09/          # Control flow and assignments
-├── 09_11/          # Printf/scanf fundamentals
-├── 09_16/          # Operators (arithmetic, bitwise, conditional)
-├── 09_17/          # Additional exercises
-├── 09_18/          # Homework assignments
-├── 09_23/          # Quiz preparation
-├── 09_25/          # Practice problems
-├── 09_30/          # Advanced exercises
-├── 10_02/          # Midterm preparation
-├── 10_14/          # Post-midterm topics
-├── 10_16/          # Continued practice
-├── 10_21/          # Advanced concepts
-├── 10_23_midterm/  # Midterm exam problems
-├── 11_04/          # Final project work
-├── 11_06/          # Final homework
-├── 11_11/          # Final submissions
-└── template.c      # Basic C template file
+├── mid/              # 중간고사 범위 (Week 1-7)
+│   ├── class/        # 주차별 수업 예제 (week1~week7)
+│   ├── labs/         # 실습 과제 (Lab1~Lab7)
+│   ├── task/         # 개인 과제 (Task1~Task6)
+│   └── midterm/      # 중간고사 문제
+│
+├── final/            # 기말고사 범위 (Week 9-14)
+│   ├── class/        # 주차별 수업 예제 (week9~week14)
+│   ├── labs/         # 실습 과제 (Lab8~Lab12)
+│   ├── Tasks/        # 개인 과제 (Task7~Task10)
+│   └── finalterm/    # 기말고사 문제
+│
+└── template.c        # C 프로그램 기본 템플릿
 ```
 
-## 📚 Topics Covered
+## 📚 학습 내용
 
-### Week 1-2: Basics (09/04 - 09/11)
-- **09_04**: Basic operators, scanf/printf, comments
-- **09_09**: Multiple assignments, control flow
-- **09_11**: Printf formatting, scanf usage, sizeof operator
+### 🎯 중간고사 범위 (Mid-term)
 
-### Week 3-4: Operators & Control (09/16 - 09/30)
-- **09_16**: Arithmetic operators, increment/decrement, conditional operators, bitwise operations
-- **09_18**: Homework assignments (hw02_02.c)
-- **09_23**: Quiz problems and solutions
-- **09_25**: Practice exercises
-- **09_30**: Advanced problem sets
+| 주차 | 주제 | 내용 |
+|-----|------|------|
+| Week 1 | **C 프로그래밍 시작** | 개발환경 설정, Hello World, 컴파일 과정 |
+| Week 2 | **자료형과 입출력** | 변수, 자료형, scanf/printf, 전처리기 |
+| Week 3 | **연산자** | 산술/관계/논리/비트/조건 연산자 |
+| Week 4 | **조건문** | if-else, switch-case, 중첩 조건문 |
+| Week 5 | **반복문** | for, while, do-while, 중첩 반복문 |
+| Week 6 | **배열** | 1차원 배열, 2차원 배열, 배열 초기화 |
+| Week 7 | **함수 기초** | 함수 정의/호출, 매개변수, 반환값, 재귀 |
 
-### Week 5-7: Midterm Preparation (10/02 - 10/23)
-- **10_02**: Comprehensive review (12 files)
-- **10_14**: Advanced topics (8 files)
-- **10_16**: Additional practice (6 files)
-- **10_21**: Final review (4 files)
-- **10_23_midterm**: Midterm exam problems (8 files)
+**실습 과제**: Lab 1-7
+**개인 과제**: Task 1-6
+**평가**: 중간고사 (midterm/)
 
-### Week 8-11: Advanced Topics & Finals (11/04 - 11/11)
-- **11_04**: Final project components (9 files)
-- **11_06**: Final homework assignments (hw07.c)
-- **11_11**: Course wrap-up (8 files)
+### 🎯 기말고사 범위 (Final-term)
 
-## 🚀 Quick Start
+| 주차 | 주제 | 내용 |
+|-----|------|------|
+| Week 9 | **포인터 기초 1** | 포인터 개념, 주소 연산자, 역참조 |
+| Week 10 | **포인터 기초 2** | 포인터와 배열, 포인터 산술 연산 |
+| Week 11 | **문자와 문자열** | 문자 처리, 문자열 함수, 버퍼 관리 |
+| Week 12 | **구조체** | 구조체 정의, 멤버 접근, 구조체 배열 |
+| Week 13 | **함수와 포인터** | 함수 포인터, 포인터 전달, 동적 할당 |
+| Week 14 | **파일 처리** | 파일 입출력, fopen/fclose, 텍스트/바이너리 파일 |
+| Week 14+ | **고급 주제** | 동적 메모리, 전처리기, 링크드 리스트 |
 
-### Prerequisites
+**실습 과제**: Lab 8-12
+**개인 과제**: Task 7-10
+**평가**: 기말고사 (finalterm/)
 
-- GCC compiler (or any C compiler)
-- Basic understanding of command line
-- Text editor or IDE (VS Code, CLion, etc.)
+## 🔨 빌드 및 실행
 
-### Compilation
+### 필요 환경
+- **컴파일러**: GCC 4.8 이상
+- **OS**: macOS, Linux, Windows (MinGW)
+- **에디터**: 아무거나 (VS Code, Vim, Nano 등)
 
-To compile any C file:
+### 컴파일 방법
 
 ```bash
-gcc filename.c -o output_name
-./output_name
+# 기본 컴파일
+gcc filename.c -o output
+
+# 경고 옵션 포함 (권장)
+gcc -Wall -Wextra filename.c -o output
+
+# 실행
+./output
 ```
 
-Example:
+### 예제
+
 ```bash
-gcc 09_04/1.c -o hello
-./hello
+# Lab 파일 컴파일
+cd mid/labs/Lab1
+gcc lab01.c -o lab01
+./lab01
+
+# Task 파일 컴파일
+cd final/Tasks/Task10
+gcc hw10.c -o hw10
+./hw10
 ```
 
-### Using the Template
+## 💡 주요 학습 개념
 
-The `template.c` file provides a basic structure for C programs:
-
+### 1️⃣ 기본 입출력
 ```c
-#include <stdio.h>
-#include <stdlib.h>
-
-int main() {
-    // Your code here
-    return 0;
-}
-```
-
-## 💡 Key Concepts
-
-### 1. Input/Output
-```c
-// scanf example
 int age;
-printf("Enter your age: ");
+printf("나이를 입력하세요: ");
 scanf("%d", &age);
-
-// printf formatting
-printf("Age: %d\n", age);
-printf("Float: %.2f\n", 3.14159);
+printf("당신의 나이는 %d세입니다.\n", age);
 ```
 
-### 2. Operators
+### 2️⃣ 배열과 반복문
 ```c
-// Arithmetic
-int sum = a + b;
-int product = a * b;
+int scores[5] = {90, 85, 88, 92, 87};
+int sum = 0;
 
-// Increment/Decrement
-i++;  // post-increment
-++i;  // pre-increment
-
-// Conditional (ternary)
-int max = (a > b) ? a : b;
-
-// Bitwise
-int result = a & b;  // AND
-int result2 = a | b; // OR
+for (int i = 0; i < 5; i++) {
+    sum += scores[i];
+}
+printf("평균: %.2f\n", sum / 5.0);
 ```
 
-### 3. Control Flow
+### 3️⃣ 포인터
 ```c
-// If-else
-if (x > 0) {
-    printf("Positive\n");
-} else {
-    printf("Non-positive\n");
-}
+int num = 10;
+int *ptr = &num;
 
-// For loop
-for (int i = 0; i < 10; i++) {
-    printf("%d ", i);
-}
+printf("값: %d\n", *ptr);      // 10
+printf("주소: %p\n", ptr);      // 메모리 주소
+*ptr = 20;                      // num = 20으로 변경
+```
 
-// While loop
-while (condition) {
-    // code
+### 4️⃣ 구조체
+```c
+struct Student {
+    char name[50];
+    int id;
+    float gpa;
+};
+
+struct Student s1 = {"홍길동", 2021001, 3.8};
+printf("학생: %s (ID: %d, GPA: %.2f)\n", s1.name, s1.id, s1.gpa);
+```
+
+### 5️⃣ 파일 처리
+```c
+FILE *fp = fopen("data.txt", "r");
+if (fp != NULL) {
+    char buffer[100];
+    while (fgets(buffer, 100, fp) != NULL) {
+        printf("%s", buffer);
+    }
+    fclose(fp);
 }
 ```
 
-## 📊 Course Progress
+## 📈 과제 하이라이트
 
-| Period | Topics | Files | Status |
-|--------|--------|-------|--------|
-| Week 1-2 | Basics & I/O | 15+ | ✅ Complete |
-| Week 3-4 | Operators | 20+ | ✅ Complete |
-| Week 5-7 | Midterm Prep | 30+ | ✅ Complete |
-| Week 8-11 | Advanced & Finals | 25+ | ✅ Complete |
-| **Total** | | **58** | ✅ Complete |
+### 중간고사 과제
+- **Task 1**: 기본 입출력 프로그램
+- **Task 2**: 조건문을 활용한 성적 계산기
+- **Task 3**: 반복문 패턴 출력
+- **Task 4**: 배열을 이용한 통계 프로그램
+- **Task 5**: 함수를 활용한 계산기
 
-## 🎯 Highlights
+### 기말고사 과제
+- **Task 7** (`hw07.c`): 로또 번호 생성기 (포인터, 배열)
+- **Task 8** (`hw08.c`): 문자열 LED 출력 (문자열 처리)
+- **Task 9**: 직원 관리 시스템 (구조체)
+- **Task 10** (`hw10.c`): 파일 기반 데이터베이스 (파일 I/O, 구조체)
 
-### Lab Exercises
-- **lab03_01.c, lab03_02.c, lab03_03.c** (09_16): Operator exercises
-- Various lab exercises throughout the course
+## 🎓 기술 스택
 
-### Homework Assignments
-- **hw02_02.c** (09_18): Early homework
-- **hw07.c** (11_06): Final homework
+### Languages & Tools
+- **C** (C99/C11 표준)
+- **GCC** 컴파일러
+- **Git** 버전 관리
+- **Markdown** 문서화
 
-### Exams
-- **10_23_midterm/**: Complete midterm exam problems
+### 핵심 개념
+- 메모리 관리 (스택, 힙)
+- 포인터 및 동적 할당
+- 구조체 및 사용자 정의 타입
+- 파일 입출력
+- 재귀 알고리즘
+- 함수 포인터
 
-## 🛠️ Development Environment
+## 📝 코드 품질
 
-- **Language**: C (C99/C11 standard)
-- **Compiler**: GCC
-- **IDE**: VS Code (settings included in `.vscode/`)
-- **Version Control**: Git
-- **AI Assistant**: Aider (chat history preserved)
+### 코딩 규칙
+- ✅ NASA C Style Guide 준수
+- ✅ 명확한 변수명 사용
+- ✅ 주석을 통한 코드 설명
+- ✅ 함수 단위 모듈화
+- ✅ 에러 처리 구현
 
-## 📖 Learning Resources
+### 테스트
+- 모든 프로그램은 다양한 입력으로 테스트 완료
+- 경계값 테스트 수행
+- 메모리 누수 검증
 
-### Recommended Books
-- "The C Programming Language" by Kernighan & Ritchie
-- "C Primer Plus" by Stephen Prata
+## 🚀 학습 방법
 
-### Online Resources
-- [C Reference](https://en.cppreference.com/w/c)
-- [Learn-C.org](https://www.learn-c.org/)
-- [GeeksforGeeks C Programming](https://www.geeksforgeeks.org/c-programming-language/)
+1. **수업 예제** (`class/`): 이론 학습 후 직접 실습
+2. **실습 과제** (`labs/`): 주간 실습으로 개념 강화
+3. **개인 과제** (`task/`, `Tasks/`): 종합 문제 해결 능력 배양
+4. **시험 대비** (`midterm/`, `finalterm/`): 실전 연습
 
-## 🤝 Contributing
+## 📊 프로젝트 통계
 
-While this is primarily a personal learning repository, suggestions and improvements are welcome:
+```
+Language                Files        Lines        Code       Comments
+────────────────────────────────────────────────────────────────────
+C                          81        4,500+       3,800+        700+
+PDF (학습자료)              52          N/A          N/A          N/A
+────────────────────────────────────────────────────────────────────
+Total                     133        4,500+       3,800+        700+
+```
 
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Open a Pull Request
+## 🔗 참고 자료
 
-## 📄 License
+### 교재 및 문서
+- 수업 PDF 자료 52개 포함
+- NASA C Style Guide
+- C Reference Documentation
 
-This project is available for educational purposes. Feel free to use the code examples for learning.
+### 추천 학습 자료
+- [cppreference.com](https://en.cppreference.com/w/c) - C 언어 레퍼런스
+- [Learn-C.org](https://www.learn-c.org/) - 인터랙티브 튜토리얼
+- [GeeksforGeeks C](https://www.geeksforgeeks.org/c-programming-language/) - 알고리즘 및 예제
 
-## 👤 Author
+## 👨‍💻 Author
 
 **SoftKleenex**
 - GitHub: [@softkleenex](https://github.com/softkleenex)
-- Course: C Programming Fundamentals (COMP101)
-- Period: September 2025 - November 2025
+- 과정: 프로그래밍 기초
+- 기간: 2025년 2학기
 
-## 🙏 Acknowledgments
+## 📜 License
 
-- Course instructors for excellent teaching materials
-- Classmates for collaborative learning
-- Aider AI for coding assistance and learning support
+이 프로젝트는 교육 목적으로 자유롭게 사용 가능합니다.
 
----
+## ⭐ 기여
 
-## 📝 Notes
-
-- Each folder contains exercises completed on the corresponding date
-- Code follows standard C conventions and best practices
-- Comments are included in Korean and English
-- All code has been tested and verified to work correctly
-
-## 🎓 Skills Demonstrated
-
-- ✅ Basic C programming syntax
-- ✅ Variable declarations and data types
-- ✅ Control structures (if, while, for, switch)
-- ✅ Operators (arithmetic, logical, bitwise)
-- ✅ Input/output operations
-- ✅ Problem-solving and algorithm design
-- ✅ Code organization and documentation
-- ✅ Debugging and testing
+포크, 스타, 피드백 환영합니다!
 
 ---
 
-⭐ **Star this repository** if you find it helpful for learning C programming!
-
-📧 For questions or suggestions, please open an issue.
-
-**Status**: ✅ Course Completed (November 2025)
+**Last Updated**: 2025-12-31
+**Status**: ✅ 과정 완료
